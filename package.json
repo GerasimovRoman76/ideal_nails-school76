@@ -1,0 +1,26 @@
+{
+  "name": "ideal_nails-school76",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerasimovRoman76/ideal_nails-school76.git"
+  },
+  "author": "GerasimovRoman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerasimovRoman76/ideal_nails-school76/issues"
+  },
+  "homepage": "https://github.com/GerasimovRoman76/ideal_nails-school76#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
