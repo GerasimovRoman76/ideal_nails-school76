@@ -74,4 +74,115 @@ img {
   text-decoration: none;
   color: #9E9A81;
 }
+
+.hero {
+  height: 100vh;
+}
+
+.hero__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.hero__button {
+  margin-top: 4.285rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.142rem;
+  padding: 16px 45px;
+  background-color: #C5B873;
+  border: none;
+  -webkit-box-shadow: 0px 0px 10px rgba(197, 184, 115, 0.35);
+          box-shadow: 0px 0px 10px rgba(197, 184, 115, 0.35);
+}
+
+.hero__content {
+  margin-top: 10rem;
+}
+
+.hero__bg {
+  max-width: 44%;
+  position: relative;
+}
+
+.hero__bg::after {
+  content: '';
+  position: absolute;
+  width: 22.785rem;
+  height: 40.214rem;
+  right: 0;
+  top: -2px;
+  z-index: -1;
+  background-color: #9E9A81;
+}
+
+.hero__arrow {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background: url("../img/hero/arrow.svg") no-repeat center/cover;
+  bottom: 1.5rem;
+  right: 39rem;
+}
+
+.name__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.42rem;
+  color: #9E9A81;
+}
+
+.name__description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.714rem;
+  color: #CACACA;
+  text-decoration: none;
+  position: relative;
+}
+
+.name__description::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/hero/click.svg");
+  left: -3.4rem;
+  bottom: 3px;
+}
+
+.name__description-box {
+  margin-top: 10px;
+  margin-left: 3.5rem;
+}
+
+.attendance {
+  margin-top: 2.571rem;
+}
+
+.attendance__title-big {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3.714rem;
+  color: #C5B873;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.attendance__title-small {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.571rem;
+  color: #9E9A81;
+  margin: 0;
+  margin-top: 6px;
+}
 /*# sourceMappingURL=style.css.map */
