@@ -1,10 +1,39 @@
 .header
-  background-color: #5E5E5E
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    width: 70%
+    height: 2px
+    background-color: $light
 .menu
   display: flex
   justify-content: space-between
-  padding: 40px 0
+  padding: 2.85rem 0
+  margin-left: 5.142rem
+  &__phone
+    font-style: normal
+    font-weight: 300
+    font-size: 15px
+    text-decoration: none
+    color: $light
 .nav
-  margin-left: 20px
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    left: -431px  
+    bottom: 9px
+    width: 70%
+    height: 1px
+    background-color: $light
   &__item
-    margin-right: 70px
+    margin-right: 5rem
+    font-style: normal
+    font-weight: 300
+    font-size: 1.285rem
+    text-decoration: none
+    color: $light
