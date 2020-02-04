@@ -21,7 +21,7 @@
     font-weight: 300
     font-size: 3.428rem
     &-link
-      display: block
+      display: inline-block
       margin-left: 3.3rem
       margin-bottom: 2.83rem   
       font-weight: 300
@@ -39,15 +39,15 @@
         left: -3.4rem
         bottom: 3px
       &::after
-        background-color: $primary
+        background-color: $light
         display: block
         content: ""
         height: 2px
         width: 0%
-        transition: width .3s ease-in-out
+        transition: width .4s ease-in-out
       &:hover
         &::after
-          width: 60%
+          width: 100%
   &__service
     &-big
       margin: 0
@@ -84,5 +84,5 @@
     max-height: 53.785rem
   &__arrow
     position: absolute
-    bottom: 20px
+    bottom: 25px
     right: 50% 
