@@ -1,12 +1,15 @@
 .header
   position: relative
+  position: fixed
+  width: 100%
+  background-color: $bg-body
+  z-index: 1
   &::after
     content: ''
     position: absolute
     left: 0
     right: 0
     bottom: 0
-    width: 70%
     height: 2px
     background-color: $light
 .menu
@@ -20,6 +23,9 @@
     font-size: 15px
     text-decoration: none
     color: $light
+    transition: 0.3s
+    &:hover
+      color: $primary
 .nav
   position: relative
   &::before
@@ -31,9 +37,20 @@
     height: 1px
     background-color: $light
   &__item
+    display: inline-block
     margin-right: 5rem
     font-style: normal
     font-weight: 300
     font-size: 1.285rem
     text-decoration: none
     color: $light
+    &::after
+      background-color: $primary
+      display: block
+      content: ""
+      height: 2px
+      width: 0%
+      transition: width .3s ease-in-out
+    &:hover
+      &::after
+        width: 100%
