@@ -25,7 +25,7 @@ img {
   position: fixed;
   width: 100%;
   background-color: #171717;
-  z-index: 1;
+  z-index: 10;
 }
 
 .header::after {
@@ -219,12 +219,16 @@ img {
 .hero__arrow {
   position: absolute;
   bottom: 25px;
-  right: 50%;
+  right: 47%;
 }
 
 .advantages {
-  margin-top: -5px;
   padding: 5rem 0 7.928rem 0;
+}
+
+.advantages__container-bg {
+  margin: -5px auto 0 auto;
+  max-width: 1440px;
   background: #171717 url("../img/advantages/bg-advantages.png") no-repeat center/cover;
 }
 
@@ -250,5 +254,22 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.advantage__text {
+  font-weight: 800;
+  font-size: 1.714rem;
+  text-align: center;
+  max-width: 37rem;
+  color: #C5B873;
+  margin: 5px auto;
+}
+
+.advantage__icon-1 {
+  width: 133px;
+}
+
+.advantage__icon-3 {
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,9 @@
 .advantages
-  margin-top: -5px
   padding: 5rem 0 7.928rem 0
-  background: $bg-body url('../img/advantages/bg-advantages.png') no-repeat center / cover
+  &__container-bg
+    margin: -5px auto 0 auto
+    max-width: 1440px
+    background: $bg-body url('../img/advantages/bg-advantages.png') no-repeat center / cover
   &__box
     display: flex
     align-items: center
@@ -9,4 +11,16 @@
 .advantage
   display: flex
   flex-direction: column
-  align-items: center 
+  align-items: center
+  &__text
+    font-weight: 800
+    font-size: 1.714rem 
+    text-align: center
+    max-width: 37rem
+    color: $primary
+    margin: 5px auto
+  &__icon
+    &-1
+      width: 133px
+    &-3
+      width: 100px
