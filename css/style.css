@@ -219,27 +219,27 @@ img {
 .hero__arrow {
   position: absolute;
   bottom: 25px;
-  right: 47%;
+  right: 50%;
 }
 
 .advantages {
   padding: 5rem 0 7.928rem 0;
+  margin: -5px auto 5rem;
 }
 
 .advantages__container-bg {
   position: relative;
-  margin: -5px auto 0 auto;
   max-width: 1440px;
-  background: url("../img/advantages/bg-advantages.png") no-repeat center/cover;
+  background: url("../img/advantages/bg-advantages.jpg") no-repeat center/cover;
 }
 
 .advantages__container-bg::before {
   content: '';
   position: absolute;
-  top: 7.928rem;
+  top: calc(50% - 7.75rem);
   left: 0;
   width: 100%;
-  height: 46%;
+  height: 15.5rem;
   background-color: rgba(23, 23, 23, 0.47);
 }
 
@@ -250,12 +250,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .advantage {
-  z-index: 1;
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,23 +267,19 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .advantage__text {
+  max-width: 36rem;
   font-weight: 800;
-  font-size: 1.39rem;
+  font-size: 1.66rem;
+  line-height: 2rem;
   text-align: center;
   color: #C5B873;
-  margin: 5px auto;
-}
-
-.advantage__icon-1 {
-  width: 137px;
-}
-
-.advantage__icon-3 {
-  width: 103px;
+  margin: 0;
+  margin-top: 2.142rem;
 }
 /*# sourceMappingURL=style.css.map */

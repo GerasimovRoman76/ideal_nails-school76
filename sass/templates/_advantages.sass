@@ -1,36 +1,34 @@
 .advantages
   padding: 5rem 0 7.928rem 0
+  margin: -5px auto 5rem
   &__container-bg
     position: relative
-    margin: -5px auto 0 auto
     max-width: 1440px
-    background: url('../img/advantages/bg-advantages.png') no-repeat center / cover
+    background: url('../img/advantages/bg-advantages.jpg') no-repeat center / cover
     &::before
       content: ''
       position: absolute
-      top: 7.928rem 
+      top: calc(50% - 7.75rem) 
       left: 0
       width: 100%
-      height: 46%
+      height: 15.5rem
       background-color: rgba($bg-body, 0.47)
   &__box
     display: flex
     align-items: center
-    justify-content: space-around
+    justify-content: space-between
 .advantage
-  z-index: 1
+  z-index: 2
   display: flex
   flex-direction: column
   align-items: center
-  flex-basis: 33%
+  justify-content: center
   &__text
+    max-width: 36rem
     font-weight: 800
-    font-size: 1.39rem 
+    font-size: 1.66rem 
+    line-height: 2rem
     text-align: center
     color: $primary
-    margin: 5px auto
-  &__icon
-    &-1
-      width: 137px
-    &-3
-      width: 103px
+    margin: 0
+    margin-top: 2.142rem  
