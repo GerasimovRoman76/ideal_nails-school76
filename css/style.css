@@ -224,7 +224,7 @@ img {
 
 .advantages {
   padding: 5rem 0 7.928rem 0;
-  margin: -5px auto 5rem;
+  margin: -5px auto 0;
 }
 
 .advantages__container-bg {
@@ -236,14 +236,14 @@ img {
 .advantages__container-bg::before {
   content: '';
   position: absolute;
-  top: calc(50% - 7.75rem);
-  left: 0;
+  top: calc(50% - 7.5rem);
   width: 100%;
-  height: 15.5rem;
+  height: 15rem;
   background-color: rgba(23, 23, 23, 0.47);
 }
 
 .advantages__box {
+  margin-top: -2.142rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -273,13 +273,113 @@ img {
 }
 
 .advantage__text {
-  max-width: 36rem;
-  font-weight: 800;
-  font-size: 1.66rem;
+  max-width: 35rem;
+  font-weight: 700;
+  font-size: 1.6rem;
   line-height: 2rem;
   text-align: center;
   color: #C5B873;
   margin: 0;
   margin-top: 2.142rem;
+}
+
+.courses {
+  padding-top: 74px;
+}
+
+.courses-title {
+  text-align: center;
+}
+
+.courses-title__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.courses-title__image::before, .courses-title__image::after {
+  content: '';
+  width: 25.642rem;
+  height: 1px;
+  background-color: #9E9A81;
+  margin: 0 16px;
+}
+
+.courses-title__heading {
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+  font-size: 5.142rem;
+  font-weight: 500;
+  color: #C5B873;
+}
+
+.courses__box {
+  margin-top: 2.642rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.courses__popular {
+  max-width: 19.357rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.courses__list {
+  max-width: 57rem;
+}
+
+.popular__hit {
+  position: relative;
+}
+
+.popular__hit-badge {
+  position: absolute;
+  width: 56%;
+  background: rgba(197, 184, 115, 0.95);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive;
+  font-size: 3.428rem;
+  text-align: center;
+  top: -22px;
+  left: -21px;
+}
+
+.popular__action {
+  position: relative;
+}
+
+.popular__action-badge {
+  position: absolute;
+  width: 56%;
+  background: rgba(158, 154, 129, 0.9);
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive;
+  font-size: 3.428rem;
+  text-align: center;
+  top: -22px;
+  left: -21px;
 }
 /*# sourceMappingURL=style.css.map */
