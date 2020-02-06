@@ -284,7 +284,7 @@ img {
 }
 
 .courses {
-  padding-top: 74px;
+  padding: 74px 0 50px;
 }
 
 .courses-title {
@@ -381,5 +381,107 @@ img {
   text-align: center;
   top: -22px;
   left: -21px;
+}
+
+.list-design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.list-design-image {
+  padding: 0;
+  margin: 0;
+  max-width: 190px;
+}
+
+.list-design-badge {
+  position: absolute;
+  width: 19%;
+  background: #C5B873;
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive;
+  font-size: 2.14rem;
+  text-align: center;
+  top: 72px;
+  left: -40px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding: 6px 0 8px;
+}
+
+.list-qualification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.list-qualification-image {
+  padding: 0;
+  margin: 0;
+  max-width: 190px;
+}
+
+.list-qualification-badge {
+  position: absolute;
+  width: 44%;
+  background: #C5B873;
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive;
+  font-size: 2.14rem;
+  text-align: center;
+  top: 168px;
+  left: -140px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  padding: 6px 0 7px;
+}
+
+.gallery {
+  padding-top: 50px;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.gallery-title__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery-title__image::before, .gallery-title__image::after {
+  content: '';
+  width: 25.642rem;
+  height: 1px;
+  background-color: #9E9A81;
+  margin: 0 16px;
+}
+
+.gallery-title__heading {
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+  font-size: 5.142rem;
+  font-weight: 500;
+  color: #C5B873;
 }
 /*# sourceMappingURL=style.css.map */
